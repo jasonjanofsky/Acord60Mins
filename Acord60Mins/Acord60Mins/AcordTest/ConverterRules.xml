@@ -1,0 +1,10 @@
+﻿<ConverterRules>
+	<ConverterRule>
+		<Name>CompanyA</Name>
+		<Class>Converters.CompanyA</Class>
+	</ConverterRule>
+		<ConverterRule>
+		<Name>CompanyB</Name>
+		<Class>Converters.CompanyB</Class>
+	</ConverterRule>
+</ConverterRules>

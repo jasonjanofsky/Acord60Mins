@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TXLife xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://ACORD.org/Standards/Life/2" xsi:schemaLocation="http://ACORD.org/Standards/Life/2 TXLife2.36.00.xsd">
+  <UserAuthRequest>
+    <UserLoginName>OrderingParty</UserLoginName>
+    <UserPswd>
+      <CryptType>NONE</CryptType>
+      <Pswd>OP2010</Pswd>
+    </UserPswd>
+    <VendorApp>
+      <VendorName VendorCode="000">Partner Company</VendorName>
+      <AppName>Superior System</AppName>
+      <AppVer>1.0.1</AppVer>
+    </VendorApp>
+  </UserAuthRequest>
+  <TXLifeRequest>
+    <TransRefGUID>7e21f6bd-0d7c-4a7f-b20a-bb84a69f187e</TransRefGUID>
+    <TransType tc="121">General Requirement Order Request</TransType>
+    <TransExeDate>2010-03-15</TransExeDate>
+    <TransExeTime>17:59:02.6321632-07:00</TransExeTime>
+    <TestIndicator tc="0">False</TestIndicator>
+    <OLifE>
+      <SourceInfo>
+        <CreationDate>2010-03-15</CreationDate>
+        <SourceInfoName>Web Application</SourceInfoName>
+        <FileControlID>0f3c4606-a2fd-4c03-a2c3-d0f5e3e8175f</FileControlID>
+      </SourceInfo>
+      <Holding id="Holding_SME101">
+        <HoldingTypeCode tc="2">Policy</HoldingTypeCode>
+        <HoldingStatus tc="3">Proposed</HoldingStatus>
+        <Policy id="Policy_SME101" CarrierPartyID="Party_Carrier_SME101">
+          <PolNumber>PN123456</PolNumber>
+          <ProductType tc="2">Term</ProductType>
+          <ProductCode>G30T</ProductCode>
+          <CarrierCode>CC3000</CarrierCode>
+          <PlanName>GOLDEN G30 Year Level Term</PlanName>
+          <Life>
+            <FaceAmt>250000</FaceAmt>
+          </Life>
+          <ApplicationInfo>
+            <TrackingID>WA200CC</TrackingID>
+            <ApplicationJurisdiction tc="6">CA</ApplicationJurisdiction>
+            <PrefLanguage tc="9">English</PrefLanguage>
+            <DisclosureInd tc="1">True</DisclosureInd>
+          </ApplicationInfo>
+          <RequirementInfo id="RequirementInfo_SME101_1" AppliesToPartyID="Party_Insured_SME101" RequesterPartyID="Party_Carrier_SME101" FulfillerPartyID="Party_Fulfiller_SME101" RequestorContactPartyID="Party_RequestorContact_SME101">
+            <ReqCode tc="10">Perform Examination By Paramed</ReqCode>
+            <RequirementInfoUniqueID>P0000000</RequirementInfoUniqueID>
+            <RequirementDetails>Paramed Only</RequirementDetails>
+            <RequestedDate>2010-03-15</RequestedDate>
+            <RequestedScheduleDate>2010-03-22</RequestedScheduleDate>
+            <RequestedScheduleTimeStart>08:00:00.0000000-07:00</RequestedScheduleTimeStart>
+            <RequestedScheduleTimeEnd>10:00:00.0000000-07:00</RequestedScheduleTimeEnd>
+            <Priority tc="2">Medium</Priority>
+          </RequirementInfo>
+          <RequirementInfo id="RequirementInfo_SME101_2" AppliesToPartyID="Party_Insured_SME101" RequesterPartyID="Party_Carrier_SME101" FulfillerPartyID="Party_Fulfiller_SME101" RequestorContactPartyID="Party_RequestorContact_SME101">
+            <ReqCode tc="600">Application Packet Fulfillment Service</ReqCode>
+            <RequirementInfoUniqueID>PKT00000</RequirementInfoUniqueID>
+            <RequirementDetails>Application Packet</RequirementDetails>
+            <RequestedDate>2010-03-15</RequestedDate>
+            <RequestedScheduleDate>2010-03-22</RequestedScheduleDate>
+            <RequestedScheduleTimeStart>08:00:00.0000000-07:00</RequestedScheduleTimeStart>
+            <RequestedScheduleTimeEnd>10:00:00.0000000-07:00</RequestedScheduleTimeEnd>
+            <Priority tc="2">Medium</Priority>
+            <Attachment id="Attachment_RequirementInfo_SME101_2_1">
+              <AttachmentBasicType tc="3">File</AttachmentBasicType>
+              <Description>SamplePacket.pdf</Description>
+              <AttachmentData tc="8">BASE64 DATA HERE - Actual data look more like this... JVBERi0xLjQKJeLjz9MKMyAwIG9iaiA8PC9MZW5ndGggMjkvRmlsdGVyL0ZsYXRlRGVjb2RlPj5z...</AttachmentData>
+              <AttachmentType tc="1">Document</AttachmentType>
+              <MimeTypeTC tc="17">image/PDF</MimeTypeTC>
+              <TransferEncodingTypeTC tc="4">Base64</TransferEncodingTypeTC>
+              <AttachmentLocation tc="1">Inline</AttachmentLocation>
+            </Attachment>
+          </RequirementInfo>
+        </Policy>
+        <Attachment id="Attachment_SME101_1">
+          <AttachmentBasicType tc="1">Text</AttachmentBasicType>
+          <Description>Request comment</Description>
+          <AttachmentData tc="8">Comment or remark for this service request.</AttachmentData>
+          <AttachmentType tc="2">Comment/Remark</AttachmentType>
+          <MimeTypeTC tc="1">Plain text</MimeTypeTC>
+          <TransferEncodingTypeTC tc="0">Unknown</TransferEncodingTypeTC>
+          <AttachmentLocation tc="1">Inline</AttachmentLocation>
+        </Attachment>
+      </Holding>
+      <Party id="Party_Insured_SME101">
+        <PartyTypeCode tc="1">Person</PartyTypeCode>
+        <GovtID>543006789</GovtID>
+        <GovtIDTC tc="1">Social Security Number US</GovtIDTC>
+        <ResidenceZip>92105</ResidenceZip>
+        <Person>
+          <FirstName>William</FirstName>
+          <MiddleName>M</MiddleName>
+          <LastName>White</LastName>
+          <NickName>Billy White</NickName>
+          <Prefix>Mr.</Prefix>
+          <Suffix>Jr.</Suffix>
+          <MarStat tc="1">Married</MarStat>
+          <Gender tc="1">Male</Gender>
+          <BirthDate>1985-01-15</BirthDate>
+          <DOBEstimated tc="0">False</DOBEstimated>
+          <SmokerStat tc="0">Unknown</SmokerStat>
+          <DriversLicenseNum>CA1111111</DriversLicenseNum>
+          <DriversLicenseState tc="6">CA</DriversLicenseState>
+        </Person>
+        <Address id="AddressInsured_1">
+          <AddressTypeCode tc="1">Residence</AddressTypeCode>
+          <Line1>3535 Home Avenue</Line1>
+          <Line2>Suite 5</Line2>
+          <City>San Diego</City>
+          <AddressStateTC tc="6">CA</AddressStateTC>
+          <Zip>92105</Zip>
+          <PrefAddr tc="1">True</PrefAddr>
+        </Address>
+        <Address id="AddressInsured_2">
+          <AddressTypeCode tc="15">Individual Work Location</AddressTypeCode>
+          <Line1>3001 Park Blvd.</Line1>
+          <Line2>Suite 501</Line2>
+          <City>San Diego</City>
+          <AddressStateTC tc="6">CA</AddressStateTC>
+          <Zip>92101</Zip>
+          <PrefAddr tc="0">False</PrefAddr>
+        </Address>
+        <Phone id="PhoneInsured_1">
+          <PhoneTypeCode tc="1">Home</PhoneTypeCode>
+          <AreaCode>619</AreaCode>
+          <DialNumber>2991234</DialNumber>
+          <Ext />
+          <PrefPhone tc="1">True</PrefPhone>
+          <BestTimeToCallFrom>17:30:00.0000000-07:00</BestTimeToCallFrom>
+          <BestTimeToCallTo>20:00:00.0000000-07:00</BestTimeToCallTo>
+        </Phone>
+        <Phone id="PhoneInsured_2">
+          <PhoneTypeCode tc="12">Mobile</PhoneTypeCode>
+          <AreaCode>619</AreaCode>
+          <DialNumber>2995858</DialNumber>
+          <Ext />
+          <PrefPhone tc="0">False</PrefPhone>
+          <BestTimeToCallFrom>12:00:00.0000000-07:00</BestTimeToCallFrom>
+          <BestTimeToCallTo>14:00:00.0000000-07:00</BestTimeToCallTo>
+        </Phone>
+        <EMailAddress id="EMailAddressInsured_1">
+          <EMailType tc="2">Personal</EMailType>
+          <AddrLine>applicant@mail.com</AddrLine>
+        </EMailAddress>
+      </Party>
+      <Party id="Party_Carrier_SME101">
+        <PartyTypeCode tc="2">Organization</PartyTypeCode>
+        <FullName>American Insurance Company</FullName>
+        <ResidenceZip>92111</ResidenceZip>
+        <Organization>
+          <AbbrName>AISCO</AbbrName>
+          <OrgCode>100321</OrgCode>
+          <ACORDVendorCode>100</ACORDVendorCode>
+        </Organization>
+      </Party>
+      <Party id="Party_Fulfiller_SME101">
+        <PartyTypeCode tc="2">Organization</PartyTypeCode>
+        <FullName>Superior Mobile Medics Inc.</FullName>
+        <ResidenceZip>92108</ResidenceZip>
+        <Organization>
+          <AbbrName>SMM</AbbrName>
+          <OrgCode>1029700001</OrgCode>
+          <ACORDVendorCode>297</ACORDVendorCode>
+        </Organization>
+      </Party>
+      <Party id="Party_RequestorContact_SME101">
+        <PartyTypeCode tc="2">Organization</PartyTypeCode>
+        <FullName>National Brokerage</FullName>
+        <ResidenceZip>83713</ResidenceZip>
+        <Organization>
+          <AbbrName>NBCORP</AbbrName>
+          <OrgCode>1029783713</OrgCode>
+          <ACORDVendorCode>100</ACORDVendorCode>
+        </Organization>
+      </Party>
+      <Party id="Party_GeneralAgent_SME101">
+        <PartyTypeCode tc="2">Organization</PartyTypeCode>
+        <FullName>Insurance Broker (BGA)</FullName>
+        <ResidenceZip>92126</ResidenceZip>
+        <Organization>
+          <AbbrName>ORGIB</AbbrName>
+          <OrgCode>1129792126</OrgCode>
+          <ACORDVendorCode>101</ACORDVendorCode>
+        </Organization>
+        <Producer>
+          <CarrierAppointment>
+            <CompanyProducerID>HM00BROKER</CompanyProducerID>
+          </CarrierAppointment>
+        </Producer>
+      </Party>
+      <Party id="Party_WritingAgent_SME101">
+        <PartyTypeCode tc="1">Person</PartyTypeCode>
+        <FullName>Mary G. Brown</FullName>
+        <ResidenceZip>92111</ResidenceZip>
+        <Person>
+          <FirstName>Mary</FirstName>
+          <MiddleName>G</MiddleName>
+          <LastName>Brown</LastName>
+        </Person>
+        <Producer>
+          <CarrierAppointment>
+            <CompanyProducerID>HM000AGENT</CompanyProducerID>
+          </CarrierAppointment>
+        </Producer>
+      </Party>
+      <Relation id="Relation_10_1" OriginatingObjectID="Holding_SME101" RelatedObjectID="Party_Insured_SME101">
+        <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+        <RelatedObjectType tc="6">Party</RelatedObjectType>
+        <RelationRoleCode tc="32">Insured</RelationRoleCode>
+      </Relation>
+      <Relation id="Relation_10_2" OriginatingObjectID="Holding_SME101" RelatedObjectID="Party_Carrier_SME101">
+        <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+        <RelatedObjectType tc="6">Party</RelatedObjectType>
+        <RelationRoleCode tc="87">Carrier</RelationRoleCode>
+      </Relation>
+      <Relation id="Relation_10_3" OriginatingObjectID="Holding_SME101" RelatedObjectID="Party_GeneralAgent_SME101">
+        <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+        <RelatedObjectType tc="6">Party</RelatedObjectType>
+        <RelationRoleCode tc="48">General Agent</RelationRoleCode>
+      </Relation>
+      <Relation id="Relation_10_4" OriginatingObjectID="Holding_SME101" RelatedObjectID="Party_WritingAgent_SME101">
+        <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+        <RelatedObjectType tc="6">Party</RelatedObjectType>
+        <RelationRoleCode tc="37">Primary Writing Agent</RelationRoleCode>
+      </Relation>
+    </OLifE>
+  </TXLifeRequest>
+</TXLife>
