@@ -63,7 +63,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Acord60Mins.csproj">
+    <ProjectReference Include="..\Acord60Mins\Acord60Mins.csproj">
       <Project>{f01280a4-c33a-4a78-8e44-838b3c4286c1}</Project>
       <Name>Acord60Mins</Name>
     </ProjectReference>

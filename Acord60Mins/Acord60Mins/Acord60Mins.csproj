@@ -45,15 +45,15 @@
     <Compile Include="Reflection.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="AcordToolkit\AcordToolkit.csproj">
+    <ProjectReference Include="..\AcordToolkit\AcordToolkit.csproj">
       <Project>{58f5d5db-791c-4df5-bd99-60b7c9baa28c}</Project>
       <Name>AcordToolkit</Name>
     </ProjectReference>
-    <ProjectReference Include="ConverterRules\ConverterRules.csproj">
+    <ProjectReference Include="..\ConverterRules\ConverterRules.csproj">
       <Project>{4b8377a5-6b2b-47fc-b1e0-78f1dd35526e}</Project>
       <Name>ConverterRules</Name>
     </ProjectReference>
-    <ProjectReference Include="Converters\Converters.csproj">
+    <ProjectReference Include="..\Converters\Converters.csproj">
       <Project>{35f302aa-7e20-4529-ada5-4ed8c4c39e3d}</Project>
       <Name>Converters</Name>
     </ProjectReference>
