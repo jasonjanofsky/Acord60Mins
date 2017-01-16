@@ -1,3 +1,3 @@
 ﻿"C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.2 Tools\xsd.exe" /n:"AcordToolkit" /c /outputdir:"c:\projects\Acord60Mins\AcordToolkit" "c:\projects\Acord60Mins\AcordToolkit\txlife2.36.00.xsd"
 
-Comment out ComboRelationship_Type
+Comment out references to the object: ComboRelationship_Type
