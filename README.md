@@ -3,7 +3,7 @@ Build an Acord Life Insurance Standard Integration in 60 Minutes!
 
 The Acord in 60 Minutes Projects is a sample that can help creating an Acord for Life Insurance integration simple and robust.  There are four objectives to this project.
 
-1. Serialize and Deserialize Acord XML from string to easy to digest objects.
+1. Serialize and Deserialize an Acord XML from a string or file into easy to digest objects.
 2. Allow simple conversion of Acord files from Acord -> slightly different Acord file or completely different file -> Acord.
 3. Provide a validator to determine if an XML file adheres to an Acord standard file.
 
